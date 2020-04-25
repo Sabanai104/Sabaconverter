@@ -1,9 +1,12 @@
 import React from 'react';
+import './style.css';
 
 export default class TelaInicial extends React.Component {
     render() {
         return(
-        <div>Seja bem vindo a área de texto {this.props.name}! </div>
+        <div>
+            <div className="header"><h1>Sabaconverter</h1></div>
+        </div>
         )
     }
 }

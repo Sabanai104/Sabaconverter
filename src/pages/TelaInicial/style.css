@@ -1,0 +1,15 @@
+div.header {
+        position: absolute;
+        width: 100%;
+        max-width: 1920px;
+        height: 99px;
+        left: 0px;
+        top: 0px;
+        background: #7159c1;
+}
+
+div.header h1 {
+    position: relative;
+    text-align: center;
+    top: 8px;
+}
