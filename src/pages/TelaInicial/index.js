@@ -6,6 +6,7 @@ export default class TelaInicial extends React.Component {
         return(
         <div>
             <div className="header"><h1>Sabaconverter</h1></div>
+            <div className="mainText"></div>
         </div>
         )
     }
