@@ -9,12 +9,13 @@ export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/"
-                    render={(props) => <TelaInicial{...props} name="Sabanai"/>}
+                <Route
+                    path="/"
+                   exact component={TelaInicial}
                 />
                 <Route
-                 path="/Home"
-                 render={(props) => <Home name="Sabanai" />}
+                    path="/Home"
+                    component={Home}
                 />
             </Switch>
         </BrowserRouter>

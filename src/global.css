@@ -1,0 +1,6 @@
+@-ms-viewport{
+    width: device-width;
+}
+*:root {
+    background: rgba(0, 0, 0, 0.83);
+}  
