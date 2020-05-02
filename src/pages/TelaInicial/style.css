@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
 div.header {
     position: absolute;
     width: 100%;
@@ -67,7 +68,7 @@ p.text {
 
 }
 
-button.buttonIniciar {
+.buttonIniciar {
     position: relative;
     background-color: #7159c1;
     border-color: #7159c1;
@@ -80,12 +81,24 @@ button.buttonIniciar {
     -webkit-text-stroke: 1px#000000;
 
     width: 50%;
-    min-width: 80px;
+    min-width: 140px;
     height: 80px;
     margin-left: 25%;
     margin-bottom: 60px;
-    transition: opacity 0.5s;
+    transition: opacity 100ms;
 }
-button.buttonIniciar:hover {
-    opacity: 80%;
+.buttonIniciar:hover {
+    opacity: 90%;
+}
+.mouseImg {
+    opacity: 20%;
+    position: absolute;
+    width: 75%;
+    min-width: 100px;
+    max-width: 700px;
+    height: 100%;
+    min-height: 150px;
+    max-height: 650px;
+    margin-left: 5%;
+    margin-top: -2%;
 }
