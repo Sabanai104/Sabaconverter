@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sabaconverter/precache-manifest.eba8d384b70ad8a3092839d7b4fd0e10.js"
+  "/Sabaconverter/precache-manifest.65425f059059ab85306042172d06f2e9.js"
 );
 
 self.addEventListener('message', (event) => {
