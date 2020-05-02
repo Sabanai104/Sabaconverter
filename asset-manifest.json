@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Sabaconverter/static/css/main.40c836a9.chunk.css",
+    "main.js": "/Sabaconverter/static/js/main.eee6873c.chunk.js",
+    "main.js.map": "/Sabaconverter/static/js/main.eee6873c.chunk.js.map",
+    "runtime-main.js": "/Sabaconverter/static/js/runtime-main.3951c5bd.js",
+    "runtime-main.js.map": "/Sabaconverter/static/js/runtime-main.3951c5bd.js.map",
+    "static/js/2.150c81f6.chunk.js": "/Sabaconverter/static/js/2.150c81f6.chunk.js",
+    "static/js/2.150c81f6.chunk.js.map": "/Sabaconverter/static/js/2.150c81f6.chunk.js.map",
+    "index.html": "/Sabaconverter/index.html",
+    "precache-manifest.eba8d384b70ad8a3092839d7b4fd0e10.js": "/Sabaconverter/precache-manifest.eba8d384b70ad8a3092839d7b4fd0e10.js",
+    "service-worker.js": "/Sabaconverter/service-worker.js",
+    "static/css/main.40c836a9.chunk.css.map": "/Sabaconverter/static/css/main.40c836a9.chunk.css.map",
+    "static/js/2.150c81f6.chunk.js.LICENSE.txt": "/Sabaconverter/static/js/2.150c81f6.chunk.js.LICENSE.txt",
+    "static/media/mouseImg.png": "/Sabaconverter/static/media/mouseImg.4a747119.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3951c5bd.js",
+    "static/js/2.150c81f6.chunk.js",
+    "static/css/main.40c836a9.chunk.css",
+    "static/js/main.eee6873c.chunk.js"
+  ]
+}
