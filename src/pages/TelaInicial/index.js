@@ -1,8 +1,12 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import './style.css';
 
-export default class TelaInicial extends React.Component {
-    render() {
+export default function TelaInicial() {  
+        const history = useHistory();
+        function pressButton() {
+            history.push("/Home");
+        }
         return(
         <div>
             <div className="header"><h1>Sabaconverter</h1></div>
@@ -14,10 +18,10 @@ export default class TelaInicial extends React.Component {
                 Por isso, criamos uma ferramenta que possa proporcionar uma experiencia mais igualitaria entre seus jogos
                 de maneira que voce se sinta confortavel com a sua sensibilidade em todos eles.
                 </p>
+                <button className="buttonIniciar" onClick={pressButton}>Iniciar!</button>
             </div>
         </div>
         )
-    }
 }
 
 // export default function TelaInicial(props) {
